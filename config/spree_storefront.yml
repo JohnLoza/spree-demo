@@ -16,6 +16,8 @@ default:
           :url: /t/women/tops-and-t-shirts
         - :title: Jackets and Coats
           :url: /t/women/jackets-and-coats
+        - :title: New Category
+          :url: /t/women/new-category
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
