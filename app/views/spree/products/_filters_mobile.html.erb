@@ -16,7 +16,7 @@
 
           <div class="card plp-overlay-card">
             <div class="card-header text-uppercase <%= 'collapsed' if params[ot_downcase_name].blank? %> plp-overlay-card-header" data-toggle="collapse" id="filtersMobile<%= option_type_name %>" data-target="#collapseFilterMobile<%= option_type_name %>" aria-expanded="true" aria-controls="collapseFilterMobile<%= option_type_name %>" role="heading" aria-level="3">
-              <%= option_type_name %>
+              <%= Spree.t("option_types.#{option_type_name}") %>
               <%= icon(name: 'arrow-right',
                       classes: 'spree-icon-arrow spree-icon-arrow-right mt-1 float-right arrow plp-overlay-card-header-arrow',
                       width: 16,

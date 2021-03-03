@@ -29,27 +29,27 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello World"
+es:
+  hello: "Hola Mundo"
   spree:
-    shop_now: "Shop Now"
+    shop_now: "Comprar"
     taxons:
-      women: "Women"
-      men: "Men"
-      sportswear: "Sportswear"
-      skirts: "Skirts"
-      dresses: "Dresses"
-      shirts_and_blouses: "Shirts and Blouses"
-      sweaters: "Sweaters"
-      tops_and_t-shirts: "Tops and T-Shirts"
-      jackets_and_coats: "Jackets and Coats"
-      new_category: "New Category"
+      women: "Mujeres"
+      men: "Hombres"
+      sportswear: "Deportiva"
+      skirts: "Faldas"
+      dresses: "Vestidos"
+      shirts_and_blouses: "Playeras y Blusas"
+      sweaters: "Sudaderas"
+      tops_and_t-shirts: "Tops y Playeras"
+      jackets_and_coats: "Chaquetas y Abrigos"
+      new_category: "Nueva Categoría"
       tops: "Tops"
-      sweatshirts: "Sweatshirts"
-      pants: "Pants"
-      shirts: "Shirts"
-      t-shirts: "T-Shirts"
+      sweatshirts: "Playeras Deportivas"
+      pants: "Pantalones Deportivos"
+      shirts: "Playeras"
+      t-shirts: "P Manga Corta"
     option_types:
       color: "Color"
-      length: "Length"
-      size: "Size"
+      length: "Longitud"
+      size: "Tamaño"

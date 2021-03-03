@@ -1,5 +1,74 @@
 default:
   navigation:
+    - title: Mujeres
+      subtitle: Categorías
+      url: /t/women
+      items:
+        - :title: Faldas
+          :url: /t/women/skirts
+        - :title: Vestidos
+          :url: /t/women/dresses
+        - :title: Playeras y Blusas
+          :url: /t/women/shirts-and-blouses
+        - :title: Sudaderas
+          :url: /t/women/sweaters
+        - :title: Tops y Playeras
+          :url: /t/women/tops-and-t-shirts
+        - :title: Chaquetas y Abrigos
+          :url: /t/women/jackets-and-coats
+        - :title: Nueava Categoría
+          :url: /t/women/new-category
+      promo_banners:
+        - subtitle: Nueva Colección
+          title: Verano 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-first-category.jpg'
+        - subtitle: Ofertas Únicas
+          title: Hasta 30%
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-first-category.jpg'
+    - title: Hombres
+      subtitle: Categorías
+      url: /t/men
+      items:
+        - :title: Playeras
+          :url: /t/men/shirts
+        - :title: P Manga Corta
+          :url: /t/men/t-shirts
+        - :title: Sudaderas
+          :url: /t/men/sweaters
+        - :title: Chaquetas y Abrigos
+          :url: /t/men/jackets-and-coats
+      promo_banners:
+        - subtitle: Nueva Colección
+          title: Verano 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-first-category.jpg'
+        - subtitle: Ofertas Únicas
+          title: Hasta 30%
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-first-category.jpg'
+    - title: Ropa Deportiva
+      subtitle: Categorías
+      url: /t/sportswear
+      items:
+        - :title: Tops
+          :url: /t/sportswear/tops
+        - :title: Playeras Deportivas
+          :url: /t/sportswear/sweatshirts
+        - :title: Pantalones Deportivos
+          :url: /t/sportswear/pants
+      promo_banners:
+        - subtitle: Nueva Colección
+          title: Verano 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-first-category.jpg'
+        - subtitle: Ofertas Únicas
+          title: Hasta 30%
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-first-category.jpg'
+en:
+  navigation:
     - title: Women
       subtitle: Categories
       url: /t/women
@@ -66,36 +135,4 @@ default:
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
-fr:
-  navigation:
-    - title: Femmes
-      url: /fr/t/women
-      promo_banners:
-        - subtitle: Nouvelle collection
-          title: Été 2021
-          url: /fr/t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Hommes
-      url: /fr/t/men
-      promo_banners:
-        - subtitle: Nouvelle collection
-          title: Été 2021
-          url: /fr/t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Vêtements de sport
-      url: /fr/t/sportswear
-      promo_banners:
-        - subtitle: Nouvelle collection
-          title: Été 2021
-          url: /fr/t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-third-category.jpg'

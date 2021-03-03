@@ -1,6 +1,6 @@
 <% cache [base_cache_key, taxon, 'header'] do %>
   <div class="py-md-3 text-uppercase taxon-title">
-    <%= @taxon.name %>
+    <%= Spree.t("taxons.#{@taxon.name.downcase}") %>
   </div>
   <% unless @taxon.description.blank? %>
     <div class="py-3 py-md-0 taxon-description"><%= @taxon.description %></div>

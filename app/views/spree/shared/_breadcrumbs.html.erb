@@ -12,7 +12,7 @@
         </li>
       <% end %>
       <li class="breadcrumb-item">
-        <%= @taxon.name %>
+        <%= Spree.t("taxons.#{to_i18n_key(@taxon.name)}") %>
       </li>
     <% else %>
       <li class="breadcrumb-item">
