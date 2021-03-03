@@ -1,0 +1,6 @@
+/* Custom CSS */
+@import "spree/frontend/variables/variables";
+
+div.mobile-navigation.shown {
+  background: $header-background;
+}
