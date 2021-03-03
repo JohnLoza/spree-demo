@@ -1,24 +1,13 @@
-# README
+# Spree Demo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Useful generators
 
-Things you may want to cover:
+* Copy frontend views to project folder  
+  ```bash
+  rails g spree:frontend:copy_storefront
+  ```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Copy admin views to project folder  
+  ```
+  rails g spree:backend:copy_views
+  ```
